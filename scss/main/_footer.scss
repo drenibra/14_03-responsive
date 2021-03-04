@@ -14,17 +14,20 @@ div:last-of-type {
     display: flex;
     align-items: center;
     .navbar-button__learn-more {
-    font-family: $nunito;
-    background: #F063B8;
-    border-radius: 50px;
-    width: 170px;
-    height: 60px;
-    border: none;
-    color: white;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 160%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $nunito;
+        background: #F063B8;
+        border-radius: 50px;
+        width: 170px;
+        height: 60px;
+        border: none;
+        color: white;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 160%;
     }
     .navbar-button {
     margin-left: 30px;

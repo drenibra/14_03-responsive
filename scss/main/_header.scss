@@ -3,7 +3,6 @@ header {
     font-family: $nunito;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -27,7 +26,7 @@ nav {
   li:not(:first-of-type) a {
     font-weight: 500;
     color: $inactivecolor;
-    padding-left: 40px;
+    margin-left: 40px;
   }
   li:first-of-type {
     font-weight: 800;
