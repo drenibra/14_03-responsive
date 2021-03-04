@@ -1,1 +1,108 @@
-//silence-is-golden
+footer {
+    margin-top: 150px;
+    border-top: 2px solid rgba(156, 105, 226, 0.2);
+  }
+  
+.footer_subscribe {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    .paragraph {
+        padding-top: 20px;
+    }
+div:last-of-type {
+    display: flex;
+    align-items: center;
+    .navbar-button__learn-more {
+    font-family: $nunito;
+    background: #F063B8;
+    border-radius: 50px;
+    width: 170px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    }
+    .navbar-button {
+    margin-left: 30px;
+    }
+}
+}
+
+.footer-info {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+.footer_first-row {
+    div:first-of-type{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    h3 {
+        padding-left: 20px;
+    }
+    padding-bottom: 67px;
+    }
+    div:nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+div:nth-child(3){
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+div:nth-child(4){
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #212353;
+    padding-top: 118px;
+}
+}
+
+.footer__row-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    padding-bottom: 30px;
+}
+
+.footer__row-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+
+.footer__last-row {
+    img:not(:first-of-type) {
+        padding-left: 14px;
+    }
+}
+
