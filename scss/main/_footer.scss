@@ -10,29 +10,40 @@ footer {
     .paragraph {
         padding-top: 20px;
     }
-div:last-of-type {
-    display: flex;
-    align-items: center;
-    .navbar-button__learn-more {
+    div:last-of-type {
         display: flex;
-        justify-content: center;
         align-items: center;
-        font-family: $nunito;
-        background: #F063B8;
-        border-radius: 50px;
-        width: 170px;
-        height: 60px;
-        border: none;
-        color: white;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 18px;
-        line-height: 160%;
+        .navbar-button__learn-more {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $nunito;
+            background: #F063B8;
+            border-radius: 50px;
+            width: 170px;
+            height: 60px;
+            border: none;
+            color: white;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 160%;
+        }
+        .navbar-button {
+        margin-left: 30px;
+        }
     }
-    .navbar-button {
-    margin-left: 30px;
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            text-align: center;
+        }
+        p {
+            padding-bottom: 30px;
+        }
     }
-}
 }
 
 .footer-info {
@@ -40,6 +51,11 @@ div:last-of-type {
     display: flex;
     justify-content: space-between;
     padding-bottom: 96px;
+    @include mobile {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .footer_first-row {
@@ -83,9 +99,31 @@ div:nth-child(4){
     letter-spacing: 0.01em;
     color: #212353;
     padding-top: 118px;
+    justify-content: center;
+    @include mobile {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+@include mobile {
+    div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        h3 {
+            padding-top: 12px;
+            padding-left: 0;
+        }
+    }
 }
 }
-
+@include mobile {
+    .footer__second_third-row:nth-child(3){
+        padding-top: 80px;
+    }
+    .footer__last-row {
+        padding-top: 80px;
+    }
+}
 .footer__row-title {
     font-style: normal;
     font-weight: 800;
